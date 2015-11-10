@@ -1,0 +1,27 @@
+{
+  "name": "auth-middleware",
+  "version": "0.1.0",
+  "description": "common auth service for all sub system of zhongwei platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtoolswebplayer/auth-middleware.git"
+  },
+  "keywords": [
+    "auth-middleware"
+  ],
+  "author": "gaoletian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virtoolswebplayer/auth-middleware/issues"
+  },
+  "homepage": "https://github.com/virtoolswebplayer/auth-middleware#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "hiredis": "^0.4.1",
+    "redis": "^2.3.0"
+  }
+}
